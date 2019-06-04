@@ -1,0 +1,87 @@
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+// 
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+
+// 
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+// 
+.mat-list-icon {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+
+// for snack bar may jackup form fields
+mat-form-field {
+  margin-right: 12px;
+}
+
+
+// 
+.mat-sort-header-container {
+  align-items: center;
+}
+
+
+//
+/* Structure */
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+
+//
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+
+// 
+.mat-radio-button ~ .mat-radio-button {
+  margin-left: 16px;
+}
+
+
+
+.example-sidenav-container {
+  position: absolute;
+  top: 56px; /* adjust placement to make room for header mat-toolbar */
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
